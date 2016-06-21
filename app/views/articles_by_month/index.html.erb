@@ -1,0 +1,12 @@
+<h1>Articles by month</h1>
+<% @months.each do |month| %>
+	<h2 style="font-size: 2em"><%= month %></h4>
+	<ul id ="articles">
+		<% @articles.each do |article| %>
+			<% if article.creation_month == month %>
+				<li><%= link_to article.title, article_path(article) %></li>
+			<% end %>
+		<% end %>
+	</ul>
+	<hr>
+<% end %>

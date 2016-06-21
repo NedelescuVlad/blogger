@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   resources :popular_articles, only: [:index]
 
+  resources :articles_by_month, only: [:index]
+
   get 'login' => 'author_sessions#new'
   get 'logout' => 'author_sessions#destroy'
 end
