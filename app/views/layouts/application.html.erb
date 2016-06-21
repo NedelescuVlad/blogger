@@ -5,6 +5,7 @@
 	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	  <%= csrf_meta_tags %>
+	  <%= auto_discovery_link_tag :rss, articles_url(:format => :rss) %>
 	</head>
 	<body>
 
@@ -27,6 +28,7 @@
 		        <li><%= link_to "Write an Article", new_article_path %></li>
 		        <li><%= link_to "Popular Articles", popular_articles_path %></li>
 		        <li><%= link_to "Articles by Month", articles_by_month_index_path %></li>
+		        <li><%= link_to "RSS Feed", articles_url(:format => :rss) %></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
