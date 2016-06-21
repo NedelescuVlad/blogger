@@ -26,6 +26,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Attaching images to an article
 gem 'paperclip'
 
+# sprockets asset package manager
+gem 'sprockets', '~> 3.0'
+
+# bootstrap gem
+gem 'bootstrap-sass'
+
 # Authentication gem
 gem 'sorcery'
 # Use ActiveModel has_secure_password
