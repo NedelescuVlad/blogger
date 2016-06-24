@@ -1,28 +1,11 @@
-== README
+# Blogger
+This application allows users to view and post comments on blog posts written by trusted authors. The deployed app is available here: https://shielded-shore-70758.herokuapp.com/ . 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Author system
+An author is able to create, edit and delete blog posts without restriction. Authors may add new authors into the system. Once an author has been created, his account cannot be deleted. 
 
-Things you may want to cover:
+# Features
+Users may freely read any articles on the website. The navbar allows access to three features of the app: viewing only the 3 most clicked articles , ordering articles by month, and last, viewing an RSS representation of the website's data. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+# Access restrictions
+A user cannot edit / delete / create articles, nor does an user have access to the authors area of the website.  
